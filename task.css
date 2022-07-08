@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+nav{
+    
+    padding: 15px;
+}
+.nav_options1{
+    font-family: 'Splash', Courier, monospace;
+    font-weight: 800px;
+    font-size: 35px;
+    margin-left: 80px;
+}
+.nav_options1, .nav_links{
+    text-decoration: none;
+    color: darkblue;
+}
+.nav_options2{
+    float: right;
+    word-spacing: 30px;
+    margin-right: 150px;
+    font-family: 'Quicksand', Courier, monospace;
+    font-size: 20px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+.float-child1{
+    width: 50%;
+    float: left;
+}
+#login_page_img{
+    height: 550px;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+.login_form{
+    margin-left: 200px;
+    margin-top: 120px;
+    margin-right: 200px;
+    padding: 30px;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.float-child2{
+    width: 50%;
+    float: left;
+}
+#login_main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#login_submit{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+
+}
+#login_username, #login_password{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+}
+
