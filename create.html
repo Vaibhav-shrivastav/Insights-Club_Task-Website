@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights Club | Create Account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@200&family=Quicksand&family=Splash&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            text-decoration: none;
+        }
+        nav{
+            
+            padding: 15px;
+        }
+        .nav_options1{
+            font-family: 'Splash', Courier, monospace;
+            font-weight: 800px;
+            font-size: 35px;
+            margin-left: 80px;
+        }
+        .nav_options1, .nav_links{
+            text-decoration: none;
+            color: darkblue;
+        }
+        .nav_options2{
+            float: right;
+            word-spacing: 30px;
+            margin-right: 150px;
+            font-family: 'Quicksand', Courier, monospace;
+            font-size: 20px;
+            margin-right: 80px;
+            margin-top: 10px;
+        }
+        .form_container{
+            text-align: center;
+            background-color: aqua;
+            margin-left: 480px;
+            margin-right: 480px;
+            padding: 40px;
+            border-radius: 10px;
+        }
+        #main_heading{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+        }
+        #create_firstname, #create_lastname{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 10px;
+            width: 200px;
+        }
+        #email{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 10px;
+            width: 300px;
+        }
+        #dob{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 10px;
+            width: 300px;
+
+        }
+        #dob_main{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        #password1, #password2{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 10px;
+            width: 200px;
+        }
+        #submit{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border-radius: 5px;
+            padding: 8px;
+            cursor: pointer;
+        }
+        .form_container{
+            margin-top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav_heading">
+            <a href="" class="nav_options1">Insights &nbsp; Club</a>
+            <div class="nav_options2">
+                <a href="" class="nav_links">Home</a>
+                <a href="" class="nav_links">About</a>
+                <a href="" class="nav_links">Login</a>
+                <a href="" class="nav_links">Contact</a>
+            </div>
+        </div>
+        
+    </nav>
+    <div class="form_container">
+        <div class="form_child">
+            <h1 id="main_heading">Create Account</h1><br>
+        <form action="">
+            <input id="create_firstname" type="text" placeholder="FirstName">&nbsp; &nbsp;
+            <input id="create_lastname" type="text" placeholder="LastName"><br><br>
+            <p><input type="email" name="" id="email" placeholder="Email"></p><br>
+            <p id="dob_main">DOB  <input type="date" name="" id="dob"></p><br>
+            <input type="password" name="" id="password1" placeholder="Enter Password">&nbsp; &nbsp;
+            <input type="password" name="" id="password2" placeholder="Confirm Password"><br><br>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+        </div>
+    </div>
+</body>
+</html>
