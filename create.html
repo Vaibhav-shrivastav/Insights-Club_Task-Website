@@ -60,17 +60,17 @@
             font-size: 15px;
             border-radius: 5px;
             padding: 10px;
-            width: 300px;
+            width: 440px;
         }
-        #dob{
+        #dob, #City{
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 15px;
             border-radius: 5px;
             padding: 10px;
-            width: 300px;
+            width: 205px;
 
         }
-        #dob_main{
+        #phone_main{
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
         }
@@ -90,6 +90,24 @@
         .form_container{
             margin-top: 70px;
         }
+        .alert{
+            background-color: rgb(4, 242, 4);
+            border-radius: 8px;
+            padding: 10px;
+            font-weight: 700;
+            font-family: 'Quicksand';
+            display: none;
+        }
+        #submit{
+            background-color: blue;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: medium;
+        }
+        #submit:hover{
+            background-color: greenyellow;
+            color: black;
+        }
     </style>
 </head>
 <body>
@@ -108,16 +126,19 @@
     <div class="form_container">
         <div class="form_child">
             <h1 id="main_heading">Create Account</h1><br>
-        <form action="">
-            <input id="create_firstname" type="text" placeholder="FirstName">&nbsp; &nbsp;
-            <input id="create_lastname" type="text" placeholder="LastName"><br><br>
-            <p><input type="email" name="" id="email" placeholder="Email"></p><br>
-            <p id="dob_main">DOB  <input type="date" name="" id="dob"></p><br>
-            <input type="password" name="" id="password1" placeholder="Enter Password">&nbsp; &nbsp;
-            <input type="password" name="" id="password2" placeholder="Confirm Password"><br><br>
+        <form action="" id="AccountForm">
+            <input id="create_firstname" type="text" placeholder="FirstName" required>&nbsp; &nbsp;
+            <input id="create_lastname" type="text" placeholder="LastName" required><br><br>
+            <p><input type="email" name="" id="email" placeholder="Email" required></p><br>
+            <p id="phone_main"><input type="number" placeholder="Phone Number" name="" id="dob" required>&nbsp; <input type="text" placeholder="Enter City" id="City"></p><br>
+            <input type="password" name="" id="password1" placeholder="Enter Password" required>&nbsp; &nbsp;
+            <input type="password" name="" id="password2" placeholder="Confirm Password" required><br><br>
             <input id="submit" type="submit" value="Submit">
-        </form>
+        </form><br>
+        <div class="alert">Account Created Successfully!</div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

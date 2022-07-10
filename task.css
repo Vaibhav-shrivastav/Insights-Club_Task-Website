@@ -16,7 +16,7 @@ nav{
     text-decoration: none;
     color: darkblue;
 }
-.nav_options2{
+.nav_options2{ 
     float: right;
     word-spacing: 30px;
     margin-right: 150px;
@@ -51,11 +51,18 @@ nav{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #login_submit{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 5px;
     padding: 8px;
     cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
 
+}
+#login_submit:hover{
+    background-color: greenyellow;
+    color: black;
 }
 #check{
     border-radius: 5px;
@@ -69,4 +76,8 @@ nav{
     padding: 10px;
     width: 250px;
 }
-
+#create1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(33, 33, 222);
+}
