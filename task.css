@@ -127,3 +127,54 @@ nav{
     font-family: 'Trebuchet MS', sans-serif;
     margin-left: 125px;
 }
+@media only screen and (min-width:100px) and (max-width:600px){
+    .nav_heading{
+        margin: 0;
+        text-align: center;
+    }
+    .nav_options1{
+        margin-left: 0px;
+        font-size: 55px ;
+
+    }
+    .nav_options2{
+        visibility: hidden;
+    }
+    #login_page_img{
+        height: 400px;
+        margin: 0;
+        margin-left: 40px;
+
+    }
+    .float-child1{
+        width: 100%;
+    }
+    .float-child2{
+        width: 100%;
+    }
+    .login_form{
+        margin: 0;
+        margin-left: 60px;
+        width: 280px;
+        font-size: 20px;
+    }
+    #log{
+        font-size: 15px;
+    }
+    .about{
+        margin: 0;
+        margin-top: 150px;
+        margin-left: 10px;
+        width: 400px;
+    }
+    .contact{
+        margin: 0;
+        margin-top: 100px;
+        margin-left: 60px;
+        
+    }
+    .foot{
+        margin: 0;
+        margin-left: 60px;
+    }
+}
