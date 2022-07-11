@@ -1,6 +1,7 @@
 *{
     margin: 0;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 nav{
     
@@ -80,4 +81,49 @@ nav{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
     color: rgb(33, 33, 222);
+}
+#forgot{
+    color: brown;
+    font-family: 'Quicksand', Courier, monospace;
+    font-weight: 500;
+    font-size: medium;
+    text-decoration: underline;
+}
+.about{
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 300px;
+    background-color: bisque;
+    padding: 10px;
+}
+#about_head, #contact_head{
+    background-color: greenyellow;
+    font-family: 'Rubik Wet Paint', Courier, monospace;
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact{
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 300px;
+    background-color: bisque;
+}
+.img{
+    height: 40px;
+}
+.contact{
+    margin-top: 100px;
+    padding: 10px;
+}
+#about_content{
+    font-family: 'Edu SA Beginner', Courier, monospace;
+    font-size: 30px;
+}
+.foot{
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 125px;
 }
