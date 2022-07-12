@@ -31,6 +31,7 @@ function submitForm(e){
         document.querySelector('.alert').style.display = "none";
     },5000);
 
+
     document.getElementById('AccountForm').reset();
 }
 

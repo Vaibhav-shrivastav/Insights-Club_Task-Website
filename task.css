@@ -59,11 +59,17 @@ nav{
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;
+    transition: .3s;
+
+
 
 }
 #login_submit:hover{
     background-color: greenyellow;
     color: black;
+    transform: scale(1.06);
+
+    
 }
 #check{
     border-radius: 5px;
@@ -76,11 +82,20 @@ nav{
     border-radius: 5px;
     padding: 10px;
     width: 250px;
+    transition: .3s;
+    
+}
+#login_username:hover, #login_password:hover{
+    transform: scale(1.05);
 }
 #create1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
     color: rgb(33, 33, 222);
+    transition: .3s;
+}
+#create1:hover{
+    transform: scale(1.05);
 }
 #forgot{
     color: brown;

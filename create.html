@@ -55,6 +55,12 @@
             padding: 10px;
             width: 200px;
         }
+        #create_firstname, #create_lastname, #email, #dob, #password1, #password2, #City{
+            transition: 0.3s;
+        }
+        #create_firstname:hover, #create_lastname:hover, #email:hover, #dob:hover, #password1:hover, #password2:hover,#City:hover{
+            transform: scale(1.06);
+        }
         #email{
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 15px;
@@ -97,16 +103,19 @@
             font-weight: 700;
             font-family: 'Quicksand';
             display: none;
+            
         }
         #submit{
             background-color: blue;
             color: white;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: medium;
+            transition: 0.3s;
         }
         #submit:hover{
             background-color: greenyellow;
             color: black;
+            transform: scale(1.06);
         }
         body{
             background-image: url(back2.jpg);
@@ -144,6 +153,7 @@
     </style>
 </head>
 <body>
+    <!-- ------NAVBAR------ -->
     <nav>
         <div class="nav_heading">
             <a href="index.html" class="nav_options1">Insights &nbsp; Club</a>
@@ -155,6 +165,7 @@
         </div>
         
     </nav>
+    <!-- --------CREATE ACCOUNT FORM----------- -->
     <div class="form_container">
         <div class="form_child">
             <h1 id="main_heading">Create Account</h1><br>
@@ -170,7 +181,9 @@
         <div class="alert">Account Created Successfully!</div>
         </div>
     </div>
+    <!-- -------FIREBASE-------- -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <!-- ---------JAVASCRIPT--------- -->
     <script src="app.js"></script>
 </body>
 </html>
