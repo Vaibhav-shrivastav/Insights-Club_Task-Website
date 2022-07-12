@@ -22,8 +22,9 @@ function submitForm(e){
     var email = getElementval('email');
     var phone = getElementval('dob');
     var city = getElementval('City');
+    var pass = getElementval('password2');
 
-    saveData(firstName, lastName, email, phone, city);
+    saveData(firstName, lastName, email, phone, city, pass);
     document.querySelector('.alert').style.display = "block";
 
     setTimeout(()=>{
@@ -33,7 +34,7 @@ function submitForm(e){
     document.getElementById('AccountForm').reset();
 }
 
-const saveData = (firstName, lastName, email, phone, city) =>{
+const saveData = (firstName, lastName, email, phone, city, pass) =>{
     var newAccountForm = AccountFormDB.push();
 
     newAccountForm.set({
@@ -42,6 +43,7 @@ const saveData = (firstName, lastName, email, phone, city) =>{
         email : email,
         phone : phone,
         city : city,
+        pass: pass,
 
     });
 }
